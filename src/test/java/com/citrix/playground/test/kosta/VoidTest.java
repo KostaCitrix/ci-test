@@ -11,4 +11,10 @@ public class VoidTest {
     {
         assertEquals("Void", Void.class.getSimpleName());
     }
+
+    @Test
+    public void testVoidClassName()
+    {
+        assertEquals("java.lang.Void", Void.class.getName());
+    }
 }
