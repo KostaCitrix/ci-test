@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class VoidTest {
     
     @Test
-    public void testVoidSimpleName()
+    public void testVoidClassSimpleName()
     {
         assertEquals("Void", Void.class.getSimpleName());
     }
