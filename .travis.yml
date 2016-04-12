@@ -1,0 +1,5 @@
+language: java
+jdk: oraclejdk8
+#skip install step
+install: true
+script: mvn -B -U clean verify
